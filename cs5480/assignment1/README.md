@@ -10,6 +10,8 @@ There are three helper files containing the actual code for the neural networks:
 ## Results
 In my particular run, I got an accuracy of **0.92** with the **Logisic Regrssion** baseline model. I got **0.9** accuracy with the **Shallow Neural Net**, and I got an accuacy of **0.96** with the **Deep Neural Network** with **Sweeps**.
 
+>_More info in the notebook_
+
 ## Wandb Sweep
 The sweep dashboard for my particular run showed these results:
 
