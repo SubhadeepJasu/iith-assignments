@@ -3,7 +3,7 @@ Configuration for wandb
 """
 # Author: Subhadeep Jasu
 
-class Config():
+class Config:
     """
     Configuration for FNN run or sweep.
     """

@@ -13,7 +13,7 @@ from keras.regularizers import l2
 import wandb
 from config import Config
 
-class NeuralNetCV():
+class NeuralNetCV:
     """
     A configurable feed-forward network with wandb logging capabilities
     and built-in cross validation via wandb sweeps.

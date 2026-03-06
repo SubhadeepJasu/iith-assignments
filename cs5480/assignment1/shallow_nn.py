@@ -7,7 +7,7 @@ from typing import Any
 from keras.models import Sequential
 from keras.layers import Dense, Input
 
-class ShallowNN():
+class ShallowNN:
     """
     A single hidden layer neural network.
     """
