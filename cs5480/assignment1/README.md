@@ -4,7 +4,7 @@ The _notebook_ (`log_reg_nn_compare.ipynb`) contains the main orchestrating code
 There are three helper files containing the actual code for the neural networks:
 
 - `shallow_nn.py`: Shallow Neural Network
-- `nn_cv`: Configurable Feed-Forward Network
+- `nn_cv.py`: Configurable Feed-Forward Network
 - `config.py`: Configuration for wandb
 
 ## Experimentation
@@ -94,7 +94,7 @@ We see that momentum, adam and nadam provide the best results. With **nadam** co
 #### Number of Hidden Layers and Units Per Layer
 ![Depth vs Size vs Loss](screenshots/depth_vs_size_vs_loss.png)
 
-We observe that _higher number of hidden layers don't necessarily give better results_. Here a depth of **4 layers** provide the best result. We also observe that higher neuron count per layer generaly contributes to better results. In our case the max of **128 units per layer** results in least loss.
+We observe that _higher number of hidden layers don't necessarily give better results_. Here a depth of **3 layers** provide the best result. We also observe that higher neuron count per layer generaly contributes to better results. In our case the max of **128 units per layer** results in least loss.
 
 ### Hyper-Parameter Importance
 Using wandb sweeps we can visualise the importance and correlation of hyper-parameters and their values that contribute to better accuracy.
